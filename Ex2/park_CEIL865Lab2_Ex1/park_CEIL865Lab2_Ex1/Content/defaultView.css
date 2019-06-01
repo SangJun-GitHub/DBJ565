@@ -1,0 +1,28 @@
+﻿.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+    min-width: 500px;
+    max-width: 500px;
+    padding: 40px;
+}
+
+input {
+    min-width: 250px;
+}
+
+#intro {
+    margin: auto;
+    margin-left: 150px;
+}
+#buttons {
+    margin: auto;
+    margin-left: 150px;
+}
+
