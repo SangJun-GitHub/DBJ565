@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\hello.jpg" />
+    <Content Include="Images\notecardspink.jpg" />
+    <Content Include="Images\notepadslarge.jpg" />
+    <Content Include="Images\pens.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

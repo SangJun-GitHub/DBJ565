@@ -13,5 +13,19 @@ namespace park_CEIL865Lab2_Ex2
         {
 
         }
+
+        protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < RadioButtonList1.Items.Count; i++)
+            {
+                if (RadioButtonList1.Items[i].Selected)
+                {
+                    Image1.ImageUrl = Request.Url.GetLeftPart(UriPartial.Authority) +
+                       Request.ApplicationPath + "/images/" + RadioButtonList1.Items[i].Value;
+                    Label1.Text = Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + "/images/" + RadioButtonList1.Items[i].Value;
+                }
+            }
+
+        }
     }
 }
